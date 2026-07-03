@@ -1,0 +1,33 @@
+{
+  "ApiVersion": 2,
+  "Name": "Bounty Hunt",
+  "Description": "bounty.description",
+  "StartClientVersion": 703,
+  "MapLists": [
+    {
+      "MapListId": 324,
+      "Name": "Official Maps"
+    }
+  ],
+  "ParametersDeclaration": [
+    {
+      "Name": "GameLength",
+      "Type": "String",
+      "Default": "M"
+    }
+  ],
+  "Parameters": {
+    "Bool": [
+      {
+        "Name": "FriendlyFire",
+        "DisplayName": "params.FriendlyFire",
+        "Default": false
+      },
+      {
+        "Name": "OnlyKnives",
+        "DisplayName": "params.OnlyKnives",
+        "Default": false
+      }
+    ]
+  }
+}
