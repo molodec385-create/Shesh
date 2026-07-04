@@ -1,0 +1,31 @@
+{
+  "mode.name": "Заражение: Нулевой Пациент",
+  "mode.description": "Выжившие против орды. Кто-то среди вас скоро мутирует.",
+
+  "maplist.allmaps": "Все карты",
+
+  "Teams/Survivors": "Выжившие",
+  "Teams/Zombies": "Зомби",
+
+  "params.WarmupTime": "Время на подготовку",
+  "params.Warmup_20": "20 секунд",
+  "params.Warmup_30": "30 секунд",
+  "params.Warmup_45": "45 секунд",
+
+  "params.AlphaHP": "Здоровье Альфы",
+  "params.HP_400": "400 HP",
+  "params.HP_600": "600 HP",
+  "params.HP_800": "800 HP",
+
+  "Hint/WaitingPlayers": "Ожидание игроков",
+  "Hint/Warmup": "Стройте баррикады! Заражение скоро начнётся",
+  "Hint/Infection": "Вспышка началась! Выживите или заразитесь",
+  "Hint/AlphaAppeared": "Вирус мутировал! Появился Нулевой Пациент",
+  "Hint/EndOfMatch": "Раунд окончен",
+
+  "PopUp/AlphaAssigned": "Вирус мутировал! Ты теперь Нулевой Пациент",
+  "PopUp/LastSurvivor": "ТЫ ПОСЛЕДНИЙ ВЫЖИВШИЙ! ВКЛЮЧЁН РЕЖИМ РЕМБО!",
+
+  "Statistics/Scores": "Очки",
+  "Statistics/ScoresShort": "О"
+}
