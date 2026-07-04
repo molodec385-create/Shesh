@@ -1,37 +1,18 @@
- {
+{
   "ApiVersion": 2,
-  "Name": "абдулбеба",
+  "Name": "TESTNAME123",
   "Description": "mode.description",
   "DefaultLang": "ru",
-  "PopupsEnabled": true,
-  "StartClientVersion": 1,
+  "StartClientVersion": 703,
+  "ParametersDeclaration": [
+    { "Name": "GameLength", "Type": "String", "Default": "M" }
+  ],
   "MapLists": [
     { "MapListId": 324, "Name": "maplist.allmaps" }
   ],
   "Parameters": {
-    "Dropdown": [
-      {
-        "Name": "WarmupTime",
-        "DisplayName": "params.WarmupTime",
-        "Default": "Warmup_30",
-        "Order": 1,
-        "Variants": [
-          { "Name": "Warmup_20", "DisplayName": "params.Warmup_20" },
-          { "Name": "Warmup_30", "DisplayName": "params.Warmup_30" },
-          { "Name": "Warmup_45", "DisplayName": "params.Warmup_45" }
-        ]
-      },
-      {
-        "Name": "AlphaHP",
-        "DisplayName": "params.AlphaHP",
-        "Default": "HP_600",
-        "Order": 2,
-        "Variants": [
-          { "Name": "HP_400", "DisplayName": "params.HP_400" },
-          { "Name": "HP_600", "DisplayName": "params.HP_600" },
-          { "Name": "HP_800", "DisplayName": "params.HP_800" }
-        ]
-      }
+    "Bool": [
+      { "Name": "FriendlyFire", "DisplayName": "params.FriendlyFire", "Default": false }
     ]
   }
- }
+}
