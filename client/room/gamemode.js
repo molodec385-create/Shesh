@@ -1,3 +1,5 @@
+import { Teams, Spawns, Ui } from 'pixel_combats/room';
+
 Teams.OnRequestJoinTeam.Add(function(player, team) { team.Add(player); });
 Teams.OnPlayerChangeTeam.Add(function(player) { player.Spawns.Spawn(); });
 
