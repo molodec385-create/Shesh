@@ -1,0 +1,31 @@
+{
+  "mode.name": "Outbreak: Patient Zero",
+  "mode.description": "Survivors against the horde. One of you will mutate soon.",
+
+  "maplist.allmaps": "All Maps",
+
+  "Teams/Survivors": "Survivors",
+  "Teams/Zombies": "Zombies",
+
+  "params.WarmupTime": "Warmup time",
+  "params.Warmup_20": "20 seconds",
+  "params.Warmup_30": "30 seconds",
+  "params.Warmup_45": "45 seconds",
+
+  "params.AlphaHP": "Alpha HP",
+  "params.HP_400": "400 HP",
+  "params.HP_600": "600 HP",
+  "params.HP_800": "800 HP",
+
+  "Hint/WaitingPlayers": "Waiting for players",
+  "Hint/Warmup": "Build your barricades! Infection is coming",
+  "Hint/Infection": "Outbreak started! Survive or turn",
+  "Hint/AlphaAppeared": "The virus has mutated! Patient Zero has appeared",
+  "Hint/EndOfMatch": "Round over",
+
+  "PopUp/AlphaAssigned": "The virus mutated! You are now Patient Zero",
+  "PopUp/LastSurvivor": "YOU ARE THE LAST SURVIVOR! RAMBO MODE ACTIVATED!",
+
+  "Statistics/Scores": "Scores",
+  "Statistics/ScoresShort": "S"
+}
