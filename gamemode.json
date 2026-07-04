@@ -4,7 +4,7 @@
   "Description": "mode.description",
   "DefaultLang": "ru",
   "PopupsEnabled": true,
-  "StartClientVersion": 703,
+  "StartClientVersion": 1,
   "MapLists": [
     { "MapListId": 324, "Name": "maplist.allmaps" }
   ],
