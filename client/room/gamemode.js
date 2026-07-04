@@ -1,10 +1,11 @@
 import { Teams, Spawns, Ui } from 'pixel_combats/room';
+import { Color } from 'pixel_combats/basic';
 
 Teams.OnRequestJoinTeam.Add(function(player, team) { team.Add(player); });
 Teams.OnPlayerChangeTeam.Add(function(player) { player.Spawns.Spawn(); });
 
-Teams.Add("Blue", "Teams/Blue", { b: 1 });
-Teams.Add("Red", "Teams/Red", { r: 1 });
+Teams.Add("Blue", "Teams/Blue", new Color(0, 0, 1, 0));
+Teams.Add("Red", "Teams/Red", new Color(1, 0, 0, 0));
 Teams.Get("Blue").Spawns.SpawnPointsGroups.Add(1);
 Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 
